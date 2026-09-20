@@ -1,0 +1,7 @@
+id_atendimento,data,categoria,mensagem_usuario,resposta,status
+A001,2026-08-20,cartao,"Quero saber se meu cartao esta disponivel","O atendimento informou que a disponibilidade do cartao pode ser consultada no contexto simulado do cliente.","resolvido"
+A002,2026-08-22,transacao,"Nao reconheco uma compra","O atendimento solicitou a identificacao da transacao para verificar os dados disponiveis.","resolvido"
+A003,2026-08-25,transferencia,"Fiz uma transferencia e quero consultar","O atendimento solicitou a data ou identificacao da transferencia para localizar o registro.","resolvido"
+A004,2026-08-28,produtos,"Quais produtos financeiros estao disponiveis?","O atendimento apresentou os produtos financeiros disponiveis na base de conhecimento simulada.","resolvido"
+A005,2026-09-02,conta,"Preciso consultar um pagamento","O atendimento solicitou informacoes adicionais para identificar qual pagamento deveria ser consultado.","resolvido"
+A006,2026-09-05,seguranca,"Quero alterar minha senha","O atendimento informou que alteracoes de credenciais reais nao fazem parte do ambiente simulado.","encaminhado"
