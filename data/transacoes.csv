@@ -1,0 +1,13 @@
+id,data,descricao,categoria,tipo,valor,estabelecimento,status
+T001,2026-09-01,Compra supermercado,alimentacao,debito,185.40,Mercado Central,concluida
+T002,2026-09-02,Pagamento conta de energia,contas,debito,142.75,Companhia de Energia,concluida
+T003,2026-09-03,Compra farmacia,saude,debito,78.90,Farmacia Vida,concluida
+T004,2026-09-05,Transferencia recebida,transferencia,credito,850.00,Joao Silva,concluida
+T005,2026-09-06,Compra restaurante,alimentacao,debito,96.50,Restaurante Sabor,concluida
+T006,2026-09-08,Compra supermercado,alimentacao,debito,213.20,Mercado Central,concluida
+T007,2026-09-10,Pagamento internet,contas,debito,119.90,Internet Mais,concluida
+T008,2026-09-11,Compra farmacia,saude,debito,45.60,Farmacia Vida,concluida
+T009,2026-09-12,Transferencia enviada,transferencia,debito,300.00,Maria Souza,concluida
+T010,2026-09-14,Compra online,compras,debito,249.90,Loja Digital,pendente
+T011,2026-09-15,Compra restaurante,alimentacao,debito,72.00,Restaurante Sabor,concluida
+T012,2026-09-17,Compra supermercado,alimentacao,debito,164.30,Mercado Central,concluida
