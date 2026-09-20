@@ -1,0 +1,18 @@
+{
+  "cliente_id": "C001",
+  "nome": "Cliente Demo",
+  "perfil": "cliente pessoa fisica",
+  "preferencia_atendimento": "objetivo e contextual",
+  "produtos_contratados": [
+    "conta digital",
+    "cartao de credito"
+  ],
+  "preferencias": {
+    "canal_preferido": "digital",
+    "receber_alertas": true
+  },
+  "contexto": {
+    "ambiente": "simulado",
+    "dados_reais": false
+  }
+}
