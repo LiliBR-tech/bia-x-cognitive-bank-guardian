@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "id": "P001",
+      "nome": "Conta Digital",
+      "categoria": "conta",
+      "descricao": "Conta bancária simulada para operações demonstrativas.",
+      "status": "disponivel"
+    },
+    {
+      "id": "P002",
+      "nome": "Cartao de Credito",
+      "categoria": "cartao",
+      "descricao": "Cartao de credito simulado para demonstracao de consultas e contexto.",
+      "status": "disponivel"
+    },
+    {
+      "id": "P003",
+      "nome": "Investimento Conservador",
+      "categoria": "investimento",
+      "descricao": "Produto financeiro simulado destinado a representar uma opcao de investimento de perfil conservador.",
+      "status": "disponivel"
+    },
+    {
+      "id": "P004",
+      "nome": "Seguro Protecao",
+      "categoria": "seguro",
+      "descricao": "Produto de seguro simulado para demonstracao de consulta de produtos.",
+      "status": "disponivel"
+    }
+  ]
+}
