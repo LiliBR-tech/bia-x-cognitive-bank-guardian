@@ -277,7 +277,38 @@ streamlit run src/app.py
 O notebook disponível em `notebooks/` contém os experimentos relacionados à execução e validação do ambiente.
 
 ---
+## Requisitos 
 
+O BIA-X foi estruturado de forma a contemplar as principais etapas propostas pelo desafio, mantendo separadas a documentação conceitual, a implementação funcional e a avaliação experimental.
+
+| Etapa do desafio            | Implementação no projeto                                                                                   |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **1. Documentação**         | `docs/01-documentacao-agente.md` — definição do agente, objetivo, público e comportamento esperado         |
+| **2. Base de conhecimento** | `data/` + `docs/02-base-conhecimento.md` — organização das informações utilizadas pelo assistente          |
+| **3. Prompts**              | `docs/03-prompts.md` + `SYSTEM_PROMPT` em `src/app.py` — definição das regras de comportamento e segurança |
+| **4. Aplicação funcional**  | `src/app.py` — aplicação conversacional desenvolvida com Streamlit e integrada ao Ollama                   |
+| **5. Avaliação e métricas** | `docs/06-avaliacao-metricas.md` — metodologia, cenários BIA-X-01 a BIA-X-08 e resultados observados        |
+| **6. Pitch**                | Este documento — apresentação do problema, proposta, funcionamento, valor, limitações e próximos passos    |
+
+### Evidência x Expectativa
+
+A documentação diferencia explicitamente:
+
+```text
+Requisito documentado
+        ≠
+Comportamento esperado
+        ≠
+Comportamento observado
+        ≠
+Capacidade comprovada
+```
+
+Os resultados apresentados na avaliação representam o comportamento observado durante os experimentos realizados no ambiente disponível. Resultados classificados como `PASS`, `PARTIAL`, `FAIL` ou `INCONCLUSIVE` são mantidos individualmente, sem a criação de uma pontuação geral que possa ocultar limitações específicas.
+
+Dessa forma, o projeto apresenta não apenas a proposta do assistente, mas também as evidências e limitações encontradas durante sua validação.
+
+---
 ## LAB x Projeto
 
 Os experimentos realizados durante o desenvolvimento possuem caráter investigativo.
