@@ -48,7 +48,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_transactions():
-    path = DATA_DIR / "transacoes.csv"
+    path = DATA_DIR / "transactions.csv"
 
     if not path.exists():
         return pd.DataFrame()
@@ -58,7 +58,7 @@ def load_transactions():
 
 @st.cache_data
 def load_service_history():
-    path = DATA_DIR / "historico_atendimento.csv"
+    path = DATA_DIR / "service_history.csv"
 
     if not path.exists():
         return pd.DataFrame()
@@ -68,7 +68,7 @@ def load_service_history():
 
 @st.cache_data
 def load_customer_profile():
-    path = DATA_DIR / "perfil_cliente.json"
+    path = DATA_DIR / "customer_profile.json"
 
     if not path.exists():
         return {}
@@ -79,7 +79,7 @@ def load_customer_profile():
 
 @st.cache_data
 def load_financial_products():
-    path = DATA_DIR / "produtos_financeiros.json"
+    path = DATA_DIR / "financial_products.json"
 
     if not path.exists():
         return {}
