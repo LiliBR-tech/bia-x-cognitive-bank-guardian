@@ -201,10 +201,10 @@ Entre os conjuntos utilizados estão:
 
 ```text
 data/
-├── transacoes.csv
-├── historico_atendimento.csv
-├── perfil_cliente.json
-└── produtos_financeiros.json
+├── transactions.csv
+├── service_history.csv
+├── customer_profile.json
+└── financial_products.json
 ```
 
 Essas fontes representam diferentes dimensões do contexto:
