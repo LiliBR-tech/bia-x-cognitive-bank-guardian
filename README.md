@@ -199,7 +199,7 @@ bia-x-cognitive-bank-guardian/
 │   ├── 01-agent-documentation.md
 │   ├── 02-knowledge-base.md
 │   ├── 03-prompts.md
-│   ├── 04-architeture.md
+│   ├── 04-architecture.md
 │   ├── 05-interaction-scenarios.md
 │   ├── 06-evaluation-metrics.md
 │   ├── 07-security-limitations.md
@@ -226,7 +226,7 @@ A documentação foi organizada em etapas para separar conceito, implementação
 | `01-agent-documentation.md`  | Definição e objetivo do agente         |
 | `02-knowledge-base.md`       | Organização da base de conhecimento    |
 | `03-prompts.md`              | Instruções e comportamento esperado    |
-| `04-architeture.md`          | Arquitetura da aplicação               |
+| `04-architecture.md`          | Arquitetura da aplicação               |
 | `05-interaction-scenarios.md`| Cenários de interação                  |
 | `06-evaluation-metrics.md`   | Metodologia e resultados experimentais |
 | `07-security-limitations.md` | Segurança, escopo e limitações         |
