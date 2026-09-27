@@ -3,8 +3,14 @@
 **Banking Intelligence Assistant — Explainable Experience**
 
 > **Projeto:** BIA-X — Cognitive Bank Guardian
+>
+> 
 > **Laboratório:** Bank Cognitive Immune Lab
+>
+> 
 > **Etapa:** 2 — Base de Conhecimento
+>
+> 
 > **Versão:** V1 — DIO Lab
 
 ---
@@ -70,17 +76,17 @@ A V1 utilizará uma estrutura simples, inspirada nos dados disponibilizados como
 
 ```text
 data/
-├── transacoes.csv
-├── historico_atendimento.csv
-├── perfil_cliente.json
-└── produtos_financeiros.json
+├── transactions.csv
+├── service_history.csv
+├── customer_profile.json
+└── financial_products.json
 ```
 
 Os arquivos podem ser ampliados conforme os testes do agente evoluírem.
 
 ---
 
-## 4. `transacoes.csv`
+## 4. `transações.csv`
 
 ### Finalidade
 
@@ -384,11 +390,11 @@ A base será preparada para suportar pelo menos os seguintes cenários:
 
 | Cenário                          | Fonte principal             |
 | -------------------------------- | --------------------------- |
-| Consulta de transação            | `transacoes.csv`            |
-| Consulta de gastos               | `transacoes.csv`            |
-| Contexto de atendimento anterior | `historico_atendimento.csv` |
-| Contexto geral do cliente        | `perfil_cliente.json`       |
-| Consulta de produto              | `produtos_financeiros.json` |
+| Consulta de transação            | `transactions.csv`          |
+| Consulta de gastos               | `transactions.csv`          |
+| Contexto de atendimento anterior | `service_history.csv`       |
+| Contexto geral do cliente        | `customer_profile.json`     |
+| Consulta de produto              | `financial_products.json`   |
 | Informação ausente               | combinação das fontes       |
 | Ambiguidade                      | contexto + histórico        |
 | Conversation Recovery            | histórico + nova mensagem   |
