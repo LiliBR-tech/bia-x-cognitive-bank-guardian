@@ -42,20 +42,20 @@ A aplicação não possui acesso a contas bancárias reais e não executa opera�
 
 ```text
 data/
-├── historico_atendimento.csv
-├── perfil_cliente.json
-├── produtos_financeiros.json
-└── transacoes.csv
+├── transactions.csv
+├── service_history.csv
+├── customer_profile.json
+└── financial_products.json
 ```
 
 Essas fontes representam diferentes dimensões do contexto de atendimento:
 
 | Fonte                       | Finalidade                                      |
 | --------------------------- | ----------------------------------------------- |
-| `perfil_cliente.json`       | Informações cadastrais e preferências simuladas |
-| `produtos_financeiros.json` | Produtos disponíveis na base                    |
-| `transacoes.csv`            | Transações financeiras simuladas                |
-| `historico_atendimento.csv` | Histórico de interações simuladas               |
+| `customer_profile.json`     | Informações cadastrais e preferências simuladas |
+| `financial_products.json`   | Produtos disponíveis na base                    |
+| `transactions.csv`          | Transações financeiras simuladas                |
+| `service_history.csv`       | Histórico de interações simuladas               |
 
 ---
 
@@ -162,7 +162,7 @@ Os cenários classificados como `INCONCLUSIVE` não são tratados como aprovaç�
 
 A análise detalhada encontra-se em:
 
-`docs/06-avaliacao-metricas.md`
+`docs/06-evaluation-metrics.md`
 
 ---
 
@@ -190,19 +190,19 @@ Portanto, o projeto **não deve ser interpretado como um sistema bancário pront
 bia-x-cognitive-bank-guardian/
 │
 ├── data/
-│   ├── historico_atendimento.csv
-│   ├── perfil_cliente.json
-│   ├── produtos_financeiros.json
-│   └── transacoes.csv
+│   ├── service_history.csv
+│   ├── customer_profile.json
+│   ├── financial_products.json
+│   └── transactions.csv
 │
 ├── docs/
-│   ├── 01-documentacao-agente.md
-│   ├── 02-base-conhecimento.md
+│   ├── 01-agent-documentation.md
+│   ├── 02-knowledge-base.md
 │   ├── 03-prompts.md
-│   ├── 04-arquitetura.md
-│   ├── 05-cenarios-interacao.md
-│   ├── 06-avaliacao-metricas.md
-│   ├── 07-seguranca-limitacoes.md
+│   ├── 04-architeture.md
+│   ├── 05-interaction-scenarios.md
+│   ├── 06-evaluation-metrics.md
+│   ├── 07-security-limitations.md
 │   └── 08-pitch.md
 │
 ├── notebooks/
@@ -223,13 +223,13 @@ A documentação foi organizada em etapas para separar conceito, implementação
 
 | Documento                    | Conteúdo                               |
 | ---------------------------- | -------------------------------------- |
-| `01-documentacao-agente.md`  | Definição e objetivo do agente         |
-| `02-base-conhecimento.md`    | Organização da base de conhecimento    |
+| `01-agent-documentation.md`  | Definição e objetivo do agente         |
+| `02-knowledge-base.md`       | Organização da base de conhecimento    |
 | `03-prompts.md`              | Instruções e comportamento esperado    |
-| `04-arquitetura.md`          | Arquitetura da aplicação               |
-| `05-cenarios-interacao.md`   | Cenários de interação                  |
-| `06-avaliacao-metricas.md`   | Metodologia e resultados experimentais |
-| `07-seguranca-limitacoes.md` | Segurança, escopo e limitações         |
+| `04-architeture.md`          | Arquitetura da aplicação               |
+| `05-interaction-scenarios.md`| Cenários de interação                  |
+| `06-evaluation-metrics.md`   | Metodologia e resultados experimentais |
+| `07-security-limitations.md` | Segurança, escopo e limitações         |
 | `08-pitch.md`                | Apresentação e proposta de valor       |
 
 ---
@@ -283,11 +283,11 @@ O BIA-X foi estruturado de forma a contemplar as principais etapas propostas pel
 
 | Etapa do desafio            | Implementação no projeto                                                                                   |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **1. Documentação**         | `docs/01-documentacao-agente.md` — definição do agente, objetivo, público e comportamento esperado         |
-| **2. Base de conhecimento** | `data/` + `docs/02-base-conhecimento.md` — organização das informações utilizadas pelo assistente          |
+| **1. Documentação**         | `docs/01-agent-documentation.md` — definição do agente, objetivo, público e comportamento esperado         |
+| **2. Base de conhecimento** | `data/` + `docs/02-knowledge-base.md` — organização das informações utilizadas pelo assistente             |
 | **3. Prompts**              | `docs/03-prompts.md` + `SYSTEM_PROMPT` em `src/app.py` — definição das regras de comportamento e segurança |
 | **4. Aplicação funcional**  | `src/app.py` — aplicação conversacional desenvolvida com Streamlit e integrada ao Ollama                   |
-| **5. Avaliação e métricas** | `docs/06-avaliacao-metricas.md` — metodologia, cenários BIA-X-01 a BIA-X-08 e resultados observados        |
+| **5. Avaliação e métricas** | `docs/06-evaluation-metrics.md` — metodologia, cenários BIA-X-01 a BIA-X-08 e resultados observados        |
 | **6. Pitch**                | Este documento — apresentação do problema, proposta, funcionamento, valor, limitações e próximos passos    |
 
 ### Evidência x Expectativa
