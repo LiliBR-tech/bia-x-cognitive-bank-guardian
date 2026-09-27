@@ -111,10 +111,10 @@ A estrutura inicialmente definida é:
 
 ```text
 data/
-├── transacoes.csv
-├── historico_atendimento.csv
-├── perfil_cliente.json
-└── produtos_financeiros.json
+├── transactions.csv
+├── service_history.csv
+├── customer_profile.json
+└── financial_products.json
 ```
 
 Os arquivos representam um ambiente bancário **simulado**.
@@ -342,16 +342,16 @@ bia-x-cognitive-bank-guardian/
 ├── assets/
 │
 ├── data/
-│   ├── transacoes.csv
-│   ├── historico_atendimento.csv
-│   ├── perfil_cliente.json
-│   └── produtos_financeiros.json
+│   ├── transactions.csv
+│   ├── service_history.csv
+│   ├── customer_profile.json
+│   └── financial_products.json
 │
 ├── docs/
-│   ├── 01-documentacao-agente.md
-│   ├── 02-base-conhecimento.md
+│   ├── 01-agent-documentation.md
+│   ├── 02-knowledge-base.md
 │   ├── 03-prompts.md
-│   └── 04-arquitetura.md
+│   └── 04-architecture.md
 │
 ├── examples/
 │
