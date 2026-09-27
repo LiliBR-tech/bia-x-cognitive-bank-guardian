@@ -86,7 +86,7 @@ Os arquivos podem ser ampliados conforme os testes do agente evoluírem.
 
 ---
 
-## 4. `transações.csv`
+## 4. `transactions.csv`
 
 ### Finalidade
 
@@ -128,7 +128,7 @@ O agente deve responder somente com base nos registros disponíveis.
 
 ---
 
-## 5. `historico_atendimento.csv`
+## 5. `service_history.csv`
 
 ### Finalidade
 
@@ -165,7 +165,7 @@ Nesse caso, o agente deve verificar se existe contexto suficiente no histórico 
 
 ---
 
-## 6. `perfil_cliente.json`
+## 6. `customer_profile.json`
 
 ### Finalidade
 
@@ -203,7 +203,7 @@ O perfil não deve ser utilizado para determinar decisões financeiras em nome d
 
 ---
 
-## 7. `produtos_financeiros.json`
+## 7. `financial_products.json`
 
 ### Finalidade
 
